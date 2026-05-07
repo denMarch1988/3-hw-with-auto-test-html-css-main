@@ -42,7 +42,6 @@ header span {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
 }
 
@@ -72,7 +71,9 @@ header span {
 }
 
 .about-section .wrapper {
-
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
 
